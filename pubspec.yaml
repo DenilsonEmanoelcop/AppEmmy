@@ -1,0 +1,35 @@
+name: vendas_app
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.66.2
+  cupertino_icons: ^1.0.8
+  device_info_plus: ^9.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  shared_preferences: ^2.2.2
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
